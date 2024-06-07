@@ -1,0 +1,16 @@
+PODS:
+  - SwiftEntryKit (2.0.0)
+
+DEPENDENCIES:
+  - SwiftEntryKit (= 2.0.0)
+
+SPEC REPOS:
+  trunk:
+    - SwiftEntryKit
+
+SPEC CHECKSUMS:
+  SwiftEntryKit: 61b5fa36f34a97dd8013e48a7345bc4c4720be9a
+
+PODFILE CHECKSUM: 7b041be04449746ddebb2b67474189a1df804661
+
+COCOAPODS: 1.14.3
