@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1F35085CD4CA86FECEB0A1A8 /* Pods_EnvironmentDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5790110CA215AAAEFEFE438D /* Pods_EnvironmentDemo.framework */; };
+		FA48AA642C16968600659053 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA632C16968600659053 /* Reachability.swift */; };
+		FA48AA662C16986300659053 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA652C16986300659053 /* UIView + Extension.swift */; };
+		FA48AA682C16988D00659053 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA672C16988C00659053 /* UIViewController + Extension.swift */; };
+		FA48AA6A2C1698BC00659053 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA692C1698BC00659053 /* UILabel + Extension.swift */; };
+		FA48AA6C2C1698D200659053 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA6B2C1698D200659053 /* UIFont + Extension.swift */; };
+		FA48AA6E2C16991F00659053 /* UITableView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA6D2C16991F00659053 /* UITableView + Extension.swift */; };
+		FA48AA702C16993E00659053 /* UICollectionView  + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA6F2C16993E00659053 /* UICollectionView  + Extension.swift */; };
+		FA48AA722C16995500659053 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA712C16995500659053 /* UIButton + Extension.swift */; };
+		FA48AA742C16996E00659053 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA732C16996E00659053 /* UIImageView + Extension.swift */; };
+		FA48AA782C169A6E00659053 /* Double + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA772C169A6E00659053 /* Double + Extension.swift */; };
+		FA48AA7A2C169A7E00659053 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA792C169A7E00659053 /* String + Extension.swift */; };
+		FA48AA7C2C169A9000659053 /* Interger + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AA7B2C169A9000659053 /* Interger + Extension.swift */; };
+		FA48AAB62C16E07000659053 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AAB52C16E07000659053 /* HTTPMethod.swift */; };
+		FA48AAB82C16E0CC00659053 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48AAB72C16E0CC00659053 /* Typealias.swift */; };
 		FA63610E2C1142890085B0F6 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63610D2C1142890085B0F6 /* ApiManager.swift */; };
 		FA6361102C1142B80085B0F6 /* Utilize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63610F2C1142B80085B0F6 /* Utilize.swift */; };
 		FA6361142C1144B10085B0F6 /* ApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6361132C1144B10085B0F6 /* ApiEndPoint.swift */; };
@@ -27,7 +41,6 @@
 		FAC6BD1A2C105F7200EEC625 /* Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FAC6BD192C105F7200EEC625 /* Dev.xcconfig */; };
 		FAC6BD1D2C105FAE00EEC625 /* Testing.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FAC6BD1C2C105FAE00EEC625 /* Testing.xcconfig */; };
 		FAC6BD222C10689F00EEC625 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6BD212C10689F00EEC625 /* Enviroment.swift */; };
-		FADA5E172C1098E1003D65CD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA5E162C1098E1003D65CD /* Reachability.swift */; };
 		FAE26C792C12F2A400D9650A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE26C782C12F2A400D9650A /* AppConstants.swift */; };
 		FAE26C7D2C13094500D9650A /* NextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE26C7C2C13094500D9650A /* NextVC.swift */; };
 		FAE26C7F2C130BF300D9650A /* GetDataFromApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE26C7E2C130BF300D9650A /* GetDataFromApi.swift */; };
@@ -57,6 +70,20 @@
 		BE785C66CC3C7C8FC88B3A9A /* Pods-EnvironmentDemo.debug(testing).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvironmentDemo.debug(testing).xcconfig"; path = "Target Support Files/Pods-EnvironmentDemo/Pods-EnvironmentDemo.debug(testing).xcconfig"; sourceTree = "<group>"; };
 		BE965F7300166BFF224FB626 /* Pods-EnvironmentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvironmentDemo.release.xcconfig"; path = "Target Support Files/Pods-EnvironmentDemo/Pods-EnvironmentDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DB7AE0DFC87BC80C03A5C7E3 /* Pods-EnvironmentDemo.release(dev).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvironmentDemo.release(dev).xcconfig"; path = "Target Support Files/Pods-EnvironmentDemo/Pods-EnvironmentDemo.release(dev).xcconfig"; sourceTree = "<group>"; };
+		FA48AA632C16968600659053 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FA48AA652C16986300659053 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		FA48AA672C16988C00659053 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		FA48AA692C1698BC00659053 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		FA48AA6B2C1698D200659053 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		FA48AA6D2C16991F00659053 /* UITableView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + Extension.swift"; sourceTree = "<group>"; };
+		FA48AA6F2C16993E00659053 /* UICollectionView  + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView  + Extension.swift"; sourceTree = "<group>"; };
+		FA48AA712C16995500659053 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		FA48AA732C16996E00659053 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		FA48AA772C169A6E00659053 /* Double + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Extension.swift"; sourceTree = "<group>"; };
+		FA48AA792C169A7E00659053 /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		FA48AA7B2C169A9000659053 /* Interger + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interger + Extension.swift"; sourceTree = "<group>"; };
+		FA48AAB52C16E07000659053 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		FA48AAB72C16E0CC00659053 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		FA63610D2C1142890085B0F6 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		FA63610F2C1142B80085B0F6 /* Utilize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilize.swift; sourceTree = "<group>"; };
 		FA6361132C1144B10085B0F6 /* ApiEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoint.swift; sourceTree = "<group>"; };
@@ -79,7 +106,6 @@
 		FAC6BD1C2C105FAE00EEC625 /* Testing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Testing.xcconfig; sourceTree = "<group>"; };
 		FAC6BD1E2C105FCB00EEC625 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		FAC6BD212C10689F00EEC625 /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
-		FADA5E162C1098E1003D65CD /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		FAE26C782C12F2A400D9650A /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		FAE26C7C2C13094500D9650A /* NextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextVC.swift; sourceTree = "<group>"; };
 		FAE26C7E2C130BF300D9650A /* GetDataFromApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataFromApi.swift; sourceTree = "<group>"; };
@@ -121,15 +147,82 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FA48AA602C1695CF00659053 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FA48AA622C16963300659053 /* CheckInternet */,
+				FA48AA612C1695F400659053 /* Loading */,
+				FAC6BD2A2C1077B000EEC625 /* ApiManager */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FA48AA612C1695F400659053 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				FAE26C802C13176400D9650A /* Loading.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		FA48AA622C16963300659053 /* CheckInternet */ = {
+			isa = PBXGroup;
+			children = (
+				FA48AA632C16968600659053 /* Reachability.swift */,
+			);
+			path = CheckInternet;
+			sourceTree = "<group>";
+		};
+		FA48AA752C169A1700659053 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FA48AA6B2C1698D200659053 /* UIFont + Extension.swift */,
+				FA48AA652C16986300659053 /* UIView + Extension.swift */,
+				FA48AA692C1698BC00659053 /* UILabel + Extension.swift */,
+				FA48AA712C16995500659053 /* UIButton + Extension.swift */,
+				FA48AA6D2C16991F00659053 /* UITableView + Extension.swift */,
+				FA48AA732C16996E00659053 /* UIImageView + Extension.swift */,
+				FA48AA672C16988C00659053 /* UIViewController + Extension.swift */,
+				FA48AA6F2C16993E00659053 /* UICollectionView  + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		FA48AA762C169A5B00659053 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				FA48AA792C169A7E00659053 /* String + Extension.swift */,
+				FA48AA772C169A6E00659053 /* Double + Extension.swift */,
+				FA48AA7B2C169A9000659053 /* Interger + Extension.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		FA48AA7D2C16BFD100659053 /* Emun */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Emun;
+			sourceTree = "<group>";
+		};
+		FA48AA7E2C16C02900659053 /* EnvironmentAndConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				FAC6BD202C10685F00EEC625 /* Environment */,
+				FAC6BD182C105F1600EEC625 /* Configuration */,
+			);
+			path = EnvironmentAndConfiguration;
+			sourceTree = "<group>";
+		};
 		FA7DC0DA2C1192E300E739D5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FA7DC0DF2C1192E300E739D5 /* Font.swift */,
+				FA7DC0E02C1192E300E739D5 /* UIView+Nib.swift */,
 				FA7DC0DB2C1192E300E739D5 /* UIColor+Utils.swift */,
 				FA7DC0DC2C1192E300E739D5 /* CGRect+Utils.swift */,
 				FA7DC0DD2C1192E300E739D5 /* UIScreen+Utils.swift */,
 				FA7DC0DE2C1192E300E739D5 /* Object+ClassName.swift */,
-				FA7DC0DF2C1192E300E739D5 /* Font.swift */,
-				FA7DC0E02C1192E300E739D5 /* UIView+Nib.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -155,7 +248,7 @@
 		FAC6BCF72C105A4000EEC625 /* EnvironmentDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FAC6BD2A2C1077B000EEC625 /* ApiManager */,
+				FA48AA602C1695CF00659053 /* Networking */,
 				FAC6BD252C1076C600EEC625 /* Helper */,
 				FAC6BD232C1068D800EEC625 /* MainApp */,
 				FAC6BD242C10696F00EEC625 /* UIScreen */,
@@ -215,15 +308,15 @@
 		FAC6BD252C1076C600EEC625 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				FAC6BD182C105F1600EEC625 /* Configuration */,
-				FAC6BD202C10685F00EEC625 /* Environment */,
-				FAE26C772C12F27500D9650A /* AppConstants */,
 				FA7DC0DA2C1192E300E739D5 /* Utils */,
-				FADA5E152C1098BE003D65CD /* GlobalClass */,
-				FAC6BD292C10773100EEC625 /* GlobalFunction */,
-				FAC6BD282C10771700EEC625 /* CustomClass */,
-				FAC6BD272C1076FA00EEC625 /* Extension */,
+				FA48AA7D2C16BFD100659053 /* Emun */,
 				FAC6BD262C1076DC00EEC625 /* Utilities */,
+				FAC6BD272C1076FA00EEC625 /* Extension */,
+				FADA5E152C1098BE003D65CD /* GlobalClass */,
+				FAC6BD282C10771700EEC625 /* CustomClass */,
+				FAE26C772C12F27500D9650A /* AppConstants */,
+				FAC6BD292C10773100EEC625 /* GlobalFunction */,
+				FA48AA7E2C16C02900659053 /* EnvironmentAndConfiguration */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -238,6 +331,8 @@
 		FAC6BD272C1076FA00EEC625 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				FA48AA762C169A5B00659053 /* Type */,
+				FA48AA752C169A1700659053 /* UIKit */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -259,10 +354,11 @@
 		FAC6BD2A2C1077B000EEC625 /* ApiManager */ = {
 			isa = PBXGroup;
 			children = (
-				FA63610D2C1142890085B0F6 /* ApiManager.swift */,
 				FA63610F2C1142B80085B0F6 /* Utilize.swift */,
+				FA48AAB72C16E0CC00659053 /* Typealias.swift */,
+				FA63610D2C1142890085B0F6 /* ApiManager.swift */,
+				FA48AAB52C16E07000659053 /* HTTPMethod.swift */,
 				FA6361132C1144B10085B0F6 /* ApiEndPoint.swift */,
-				FAE26C802C13176400D9650A /* Loading.swift */,
 			);
 			path = ApiManager;
 			sourceTree = "<group>";
@@ -295,7 +391,6 @@
 		FADA5E152C1098BE003D65CD /* GlobalClass */ = {
 			isa = PBXGroup;
 			children = (
-				FADA5E162C1098E1003D65CD /* Reachability.swift */,
 			);
 			path = GlobalClass;
 			sourceTree = "<group>";
@@ -427,23 +522,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC6BCFD2C105A4000EEC625 /* ViewController.swift in Sources */,
+				FA48AA722C16995500659053 /* UIButton + Extension.swift in Sources */,
+				FA48AA6E2C16991F00659053 /* UITableView + Extension.swift in Sources */,
+				FA48AA7A2C169A7E00659053 /* String + Extension.swift in Sources */,
 				FAE26C792C12F2A400D9650A /* AppConstants.swift in Sources */,
 				FAE26C812C13176400D9650A /* Loading.swift in Sources */,
 				FAC6BCF92C105A4000EEC625 /* AppDelegate.swift in Sources */,
 				FA7DC0E52C1192E300E739D5 /* Font.swift in Sources */,
-				FADA5E172C1098E1003D65CD /* Reachability.swift in Sources */,
 				FAC6BD222C10689F00EEC625 /* Enviroment.swift in Sources */,
+				FA48AA6A2C1698BC00659053 /* UILabel + Extension.swift in Sources */,
 				FA63610E2C1142890085B0F6 /* ApiManager.swift in Sources */,
+				FA48AA7C2C169A9000659053 /* Interger + Extension.swift in Sources */,
+				FA48AA6C2C1698D200659053 /* UIFont + Extension.swift in Sources */,
+				FA48AA702C16993E00659053 /* UICollectionView  + Extension.swift in Sources */,
 				FA7DC0E22C1192E300E739D5 /* CGRect+Utils.swift in Sources */,
+				FA48AA662C16986300659053 /* UIView + Extension.swift in Sources */,
 				FA7DC0E42C1192E300E739D5 /* Object+ClassName.swift in Sources */,
+				FA48AA682C16988D00659053 /* UIViewController + Extension.swift in Sources */,
 				FA7DC0E62C1192E300E739D5 /* UIView+Nib.swift in Sources */,
 				FAE26C7D2C13094500D9650A /* NextVC.swift in Sources */,
+				FA48AA742C16996E00659053 /* UIImageView + Extension.swift in Sources */,
 				FAE26C7F2C130BF300D9650A /* GetDataFromApi.swift in Sources */,
+				FA48AAB82C16E0CC00659053 /* Typealias.swift in Sources */,
 				FA6361142C1144B10085B0F6 /* ApiEndPoint.swift in Sources */,
+				FA48AA642C16968600659053 /* Reachability.swift in Sources */,
+				FA48AA782C169A6E00659053 /* Double + Extension.swift in Sources */,
 				FA7DC0E12C1192E300E739D5 /* UIColor+Utils.swift in Sources */,
 				FA7DC0E32C1192E300E739D5 /* UIScreen+Utils.swift in Sources */,
 				FA6361392C11679D0085B0F6 /* AlertMissageView.swift in Sources */,
 				FAC6BCFB2C105A4000EEC625 /* SceneDelegate.swift in Sources */,
+				FA48AAB62C16E07000659053 /* HTTPMethod.swift in Sources */,
 				FA6361102C1142B80085B0F6 /* Utilize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +703,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8GA8A2D3K;
@@ -627,6 +736,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8GA8A2D3K;
@@ -658,6 +768,7 @@
 			baseConfigurationReference = FAC6BD1E2C105FCB00EEC625 /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -723,6 +834,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Production;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8GA8A2D3K;
@@ -738,7 +850,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo.production;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -819,6 +931,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Testing;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8GA8A2D3K;
@@ -834,7 +947,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -915,6 +1028,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Dev;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8GA8A2D3K;
@@ -930,7 +1044,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1002,8 +1116,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB7AE0DFC87BC80C03A5C7E3 /* Pods-EnvironmentDemo.release(dev).xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Dev;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8GA8A2D3K;
@@ -1019,7 +1134,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1091,8 +1206,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A58E4EBC6498665D068ED35 /* Pods-EnvironmentDemo.release(testing).xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Testing;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8GA8A2D3K;
@@ -1108,7 +1224,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1180,8 +1296,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BE3BDA12838A5BD29330195 /* Pods-EnvironmentDemo.release(production).xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Production;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8GA8A2D3K;
@@ -1197,7 +1314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = rath.com.EnvironmentDemo.production;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

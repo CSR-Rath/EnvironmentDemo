@@ -1,14 +1,14 @@
 //
-//  Testing.xcconfig
+//  Dev.xcconfig
 //  EnvironmentDemo
 //
 //  Created by Rath! on 5/6/24.
-//
+//MARK: References cofiguration enviroment URL Link https://www.youtube.com/watch?v=1GAgBtlwKJ4
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
-Root_URL = www.rath.testing.com
-Api_Key = Api_Key_testing
+Root_URL = www.rath.dev.com
+Api_Key = Api_Key_dev
 
 
 //MARK: Google service

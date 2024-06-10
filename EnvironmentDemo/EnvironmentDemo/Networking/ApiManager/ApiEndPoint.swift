@@ -12,6 +12,8 @@ enum ApiEndPoint: String {
     case getUsers = "/users"
     
     static let mainUrl  = "http://uat-api-prime.combomkt.com"
-    static let keyEncrypt = "c2njfUy9wnBcm3onyI4eaQzW3h82s8ma" //PROD
-    static let vecEncrypt = "2cK2v84kLo3LeWr2" //PROD
+    static let keyEncrypt = "c2njfUy9wnBcm3onyI4eaQzW3h82s8ma"
+    static let vecEncrypt = "2cK2v84kLo3LeWr2"
 }
+
+//let v =  ApiEndPoint.baseUrl
